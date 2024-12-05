@@ -1,4 +1,5 @@
 # Projet de génération d'image avec un prompt
+Dans le cadre du cours sur les IA génératives, nous devons créer un outil de génération d'images en utilisant l'API OpenAI
 
 ### Membres du groupe:
     - Emilie LE ROUZIC
