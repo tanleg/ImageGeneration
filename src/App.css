@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@300;400&family=Varela+Round&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+:root{
+  --primary: rgb(57, 31, 32); /* marron */
+  --text: #e8edf3; /* Blanc */
+  --primary-dark: #D5C7BC; /* Beige */
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+  line-height: 1.5;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--primary-dark);
+}
+.logo{
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px  var(--primary);
+  border-radius: 10px;
+}
+
+.img {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner{
+  background-color:var(--primary);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 10%;
+  color: var(--text);
+}
+.footer{
+  background-color:var(--primary);
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  color: var(--text);
+  font-style: italic;
+}
+#input-container {
+  display: flex;
+  padding-top: 1em;
+  flex-direction: column;
+  gap: 20px;
+}
+#input-container button {
+  padding: 0.5em;
+  border-radius: 10px;
+  transition: ease-in-out 0.2s;
+}
+#input-container button:hover {
+  background: var(--primary);
+  color: var(--text);
+
+}
+#input-container input {
+  padding: 0.5em;
+  border-radius: 10px;
+  border: none;
+}
+
+#message-input {
+  text-align: center;
+}
