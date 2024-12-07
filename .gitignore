@@ -1,5 +1,10 @@
 .env
 
+# fly.io
+Dockerfile
+.dockerignore
+fly.toml
+
 # Logs
 logs
 *.log
